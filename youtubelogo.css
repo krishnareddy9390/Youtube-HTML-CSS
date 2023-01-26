@@ -1,0 +1,335 @@
+
+*{
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    flex-direction: row;
+}
+.content{
+    width: 220px;
+    border-bottom: 1px solid lightgray;
+   
+}
+.header{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    
+}
+#text{
+    margin-top: 10px;
+    margin-left: 350px;
+    margin-bottom: 5px;
+    width: 550px;
+    height: 35px;
+    font-size: 15px;
+    border: 0.1px solid lightgray   ;
+    border-radius: 4px;
+}
+.class1{
+    display: flex;
+}
+.class2{
+    display: flex;
+}
+.home{
+    padding: 12px;
+    font-size: 18px;
+    margin-left: 20px;
+    display: flex;
+}
+.dot{
+    height: 35px;
+    width: 35px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+    
+#img2{
+    margin-top: 16px;
+    margin-left:15px ;
+    border-radius: 30px;
+}
+#img3{
+    /* margin-right: 15px; */
+    margin-left: 25px;
+    margin-top: 15px;
+}
+#img4{
+    margin-left: 300px;
+    margin-top: 15px;
+}
+.home:hover{
+    background-color: lightgray;
+}
+.part:hover{
+    background-color: lightgray;
+}
+.part1:hover{
+    background-color: lightgray;
+}
+.part2:hover{
+    background-color: lightgray;
+}
+.part3:hover{
+    background-color: lightgray;
+}
+.part4:hover{
+    background-color: lightgray;
+}
+.part5:hover{
+    background-color: lightgray;
+}
+.h1{
+    width: 12px;
+    height: 8px;
+}
+.child1{
+    float: left;
+    width: 200px;
+}
+.part{
+    padding: 12px;
+    font-size: 18px;
+    margin-left: 15px;
+    display: flex;
+}
+.part1{
+    border-bottom: 1px solid lightgray;
+    padding: 12px;
+    font-size: 18px;
+    margin-left: 15px;
+    display: flex;
+}
+.part2{
+    padding: 12px;
+    font-size: 18px;
+    margin-left: 15px;
+    display: flex;
+}
+.part3{
+    padding: 12px;
+    border-bottom: 1px solid lightgray;
+    font-size: 18px;
+    margin-left: 15px;
+    display: flex;
+}
+b{
+    font-size: 15px;
+    padding: 16px;
+    margin-left: 15px;
+}
+.part4{
+    padding: 12px;
+    font-size: 18px;
+    margin-left: 18px;
+    display: flex;
+}
+.part5{
+    padding: 12px;
+    font-size: 18px;
+    margin-left: 15px;
+    display: flex;
+}
+.h1{
+    text-indent: 20px; 
+}
+.p{
+    text-indent: 20px;
+}
+.p1{
+    text-indent: 10px;
+}
+.p2{
+    text-indent: 14px;
+}
+.p3{
+    text-indent: 14px;
+}
+.p4{
+    text-indent: 22px;
+}
+.p5{
+    text-indent: 16px;
+}
+.p6{
+    text-indent: 21px;
+}
+.p7{
+    text-indent: 23px;
+}
+.part6{
+    padding: 12px;
+    border-bottom: 1px solid lightgray;
+    font-size: 18px;
+    margin-left: 12px;
+    display: flex;
+}
+.s1{
+    display:flex;
+    flex-direction: row;
+}
+.s2{
+    display:flex;
+    flex-direction: row;
+}
+
+.grid{
+    /* background-color:lightgray; */
+    position: relative;
+    display: grid;
+    grid-auto-flow: auto;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px 20px;
+    width: 1260px;
+    background: transparent;
+    background-color: whitesmoke;
+    border-top: 0.1px solid lightgray;
+    padding: 13px ;
+    overflow-y: scroll;
+}
+th{
+    color: rgb(28, 27, 27);
+    height: 32px;
+    border-radius: 30px;
+    border: 1.5px solid lightgray;
+    background-color: rgb(239, 237, 237);
+}
+table{
+    border-collapse: separate;
+   border-spacing: 16px 0;
+}
+th:hover{ 
+    background-color: rgb(228, 227, 227) ;
+}
+.card:hover{
+    transform: scale(1.2);
+    z-index: 2;
+    background-color: lightgray;
+    margin-top: 30px;
+    transition-delay:1s;
+    transform: 5s;
+    /* margin-top: 45px; */
+}
+#link{
+    text-decoration: none;
+    color: black;
+}
+#small{
+    font-size: smaller;
+    color: gray;
+}
+.logo{
+    display: flex;
+}
+
+.card{
+    background-color: transparent;
+    width: 310px;
+    height: 320px;
+    
+}
+#logo{
+    width: 35px;
+    height: 35px;
+    border-radius: 45px;
+    margin-top: 10px;
+}
+
+video{
+    width: 308px;
+    height: 160px;
+}
+.pere{
+    margin-left: 125px;
+}
+@media  only screen and (min-width: 220px) and (max-width: 580px){
+    .section{
+        display: flex ;
+    }
+    .header{
+        width:570px ;
+        display: flex;
+    }
+    .grid{
+        display:flex;
+        flex-direction: column;
+        width: 380px;
+    }
+    .content{
+        width:180px ;
+        margin-left:10px;
+    }
+   #text{
+    margin-left: 95px;
+    width: 250px;
+    height: 20px;
+   }
+   #small{
+    font-size: smaller;
+   }
+   th{
+    font-size: small;
+    width: 11px;
+    height: 10px;
+   }
+   .part,.part1,.part2,.part3,.part4,.home,.part5{
+    font-size:small;
+    padding: 10px;
+   }
+   .part6{
+    padding: 15px;
+    font-size:small;
+   }
+   .p,.p1,.p2,.p4,.p5,.p6,.p7{
+    margin-top: 17px;
+   }
+   .p3{
+    margin-top:4px ;
+   }
+   #img2{
+    width: 15px;
+    height: 15px;
+   }
+   #img1{
+    width: 55px;
+    height: 35px;
+   }
+   #img4{
+    margin-left: 15px;
+    width: 20px;
+    height: 20px;
+   }
+   #img3{
+    width: 20px;
+    height: 20px;
+   }
+   #part,#part1,#part2,#part3,#part4,#part5{
+    margin-top: 16px;
+   }
+   #img1{
+    margin-left: 13px;
+   }
+   b{
+    font-size: smaller;
+   }
+   table{
+    
+    border-collapse: separate;
+   border-spacing: 10px 0;
+    }
+    .class2{
+        margin-right: 5px;
+    }
+    .class1{
+        margin-right: 6px;
+    }
+    .dot{
+        height: 25px;
+        width: 25px;
+    }
+}
+    
